@@ -1,0 +1,169 @@
+/* issues.css */
+.input-field{
+    margin-top: 0.5rem !important;
+}
+/* --------------home--------------------- */
+.issuebox{
+    border: 1px solid grey;
+    border-radius: 2%;
+    height: 35em;
+    width: 102%;
+    margin: 4em 0em 0em 1em;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.issuecreate{
+    border: 1px solid grey;
+    border-radius: 4%;
+    height: 31em;
+    width: 91%;
+    margin: 6em 0em 0em 2em;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.create_title{
+    height: 2em;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: grey;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    margin-bottom: -1em;
+
+}
+
+.cross{
+  margin-right: 0.5em;
+}
+
+#inpt1{
+    margin-top: 0.3em;
+    border: 1px solid grey;
+    border-radius: 4%;
+    height: 2.3em;
+    width: 93%;
+    margin-left: 0.3em;
+    margin-bottom: -2em;
+    color: white;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+#txtarea{
+    margin-top: 0.3em;
+    border: 1px solid grey;
+    border-radius: 2%;
+    height: 7em !important;
+    width: 98% !important;
+    margin-left: 0.3em;
+    margin-bottom: -1em;
+    color: white;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.selbox{
+    margin-top: 0.3em;
+    border: 1px solid grey;
+    border-radius: 4%;
+    height: 2.3em;
+    width: 97%;
+    margin-left: 0.3em;
+    margin-bottom: -2em;
+    color: white;
+    background: black;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+
+#bt{
+    width: 70%;
+    margin-top: 3.5em;
+}
+
+.log{
+    color: grey;
+    margin-top: 3.5em;;
+}
+
+/* --------------issue--------------------- */
+
+.issue{
+    border: 1px solid grey;
+    border-radius: 2%;
+    height: 3em;
+    width: 97%;
+    margin: 1em 0em 0em 1em;
+    overflow-y: auto;
+    overflow-x: hidden;
+    color: grey;
+    opacity: 0.7;
+}
+
+.issue_title{
+    font-size: 1.5em;
+    margin-left: 0.5em;
+    margin-top: 0.2em;
+}
+
+.icns{
+  margin-top: -1.5em;
+  margin-right: 0.5em;
+}
+
+.issue:hover{
+    color: white;
+    cursor: pointer;
+    opacity: 1;
+    display: block;
+}
+
+
+.material-icons:hover{
+    color: #ee6e73;
+}
+
+/*-------------modale-box---------------*/
+.overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(0,0,0,0.9);
+  z-index: 100;
+}
+
+.modale-box{
+    border-radius: 3%;
+    height: 37em;
+    width: 73em;
+    position: fixed;
+    z-index: 200;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.display-block{
+    display: block;
+}
+
+.display-none{
+    display: none;
+}
+
+.modale-header{
+    font-size: 2em;
+    color: grey; 
+    font-weight: 900;
+}
+
+.modale-body{
+    margin-top: 0.5em;
+    font-size: 1.5em;
+    color: grey;
+}
